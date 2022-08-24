@@ -1,0 +1,75 @@
+/* Container holding the image and the text */
+.container {
+    max-width: 100%;
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .header {
+    display:block;
+  height:90px;
+  left:50%;
+  position:relative;
+  /*
+  top:50%;
+  */
+  transform:translate(-50%,0%);
+  width:auto;
+  min-width:100%;
+}
+
+.headerImgTemplate {
+    display:block;
+  height:auto;
+  min-height:100%;
+  left:50%;
+  position:absolute;
+  top:50%;
+  transform:translate(-50%,0%);
+  width:auto;
+  min-width:100%;
+}
+
+.headerImg {
+  width:auto;
+  min-width:100%;
+  height:90px;
+}
